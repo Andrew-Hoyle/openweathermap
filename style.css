@@ -1,0 +1,65 @@
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+}
+
+.card {
+    background: #ccbebed0;
+    padding: 5em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    color: rgb(15, 15, 15);
+    text-decoration: Bold;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+button {
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.city {
+    text-align: center;
+    padding: 1%
+}
+
+.temp{
+    text-align: center;
+    padding: 1%
+}
+
+.description{
+    text-align: center;
+    padding: 1%
+}
+.humidity{
+    text-align: center;
+    padding: 5%
+}
+.wind{
+    text-align: center;
+    padding: 5%
+}
+
+.country{
+    text-align: center;
+    padding: 5%
+}
